@@ -5573,6 +5573,7 @@ input.button {
 }
 .speakers-list li {
   margin-bottom: 60px;
+  min-height: 410px;
 }
 .speakers-list li h4 {
   font-weight: 600;
@@ -5613,6 +5614,7 @@ input.button {
 }
 .more-speakers h4 {
   color: #4690dc;
+  margin: 60px 0 15px 0;
 }
 .customers-attending {
   text-align: center;
@@ -5696,6 +5698,9 @@ input.button {
   .speakers-list li.keynote div {
     width: 100%;
     max-width: 100%;
+  }
+  .agenda-list li {
+    height: 40px;
   }
 }
 /* Large devices (large desktops, 1200px and up) */
