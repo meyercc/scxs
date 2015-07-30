@@ -5689,10 +5689,14 @@ input.button {
   position: absolute;
   left: 130px;
 }
-.pull-up {
-  position: relative;
-  top: -18px;
+/* Tablet up */
+@media (min-width: 768px) {
+  .pull-up {
+    position: relative;
+    top: -18px;
+  }
 }
+/* Below Tablet */
 @media (max-width: 768px) {
   .speakers-list li.keynote img,
   .speakers-list li.keynote div {
@@ -5701,6 +5705,12 @@ input.button {
   }
   .agenda-list li {
     height: 40px;
+  }
+  .customers-attending li {
+    height: 45px;
+  }
+  .jumbotron.home h1 {
+    margin-top: 45px;
   }
 }
 /* Large devices (large desktops, 1200px and up) */
