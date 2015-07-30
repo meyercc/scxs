@@ -5557,8 +5557,12 @@ input.button {
   font-size: 30px;
   text-transform: uppercase;
 }
-.intro-image {
+.intro-image,
+.venue-image {
   width: 100%;
+}
+.venue-image {
+  margin-bottom: 15px;
 }
 .intro,
 .speakers,
