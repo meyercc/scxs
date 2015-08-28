@@ -5719,6 +5719,9 @@ input.button {
   .navbar-header button {
     display: none;
   }
+  .row-padding {
+    padding: 0 15px;
+  }
 }
 /* Large devices (large desktops, 1200px and up) */
 /* Large devices down (1200px and below) */
